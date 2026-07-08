@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свадьбу</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== СЕКЦИЯ 0: ЗАСТАВКА ========== -->
+    <section class="splash-screen" id="splashScreen">
+        <div class="splash-content">
+            <div class="splash-icon"></div>
+            <h2>Повестка</h2>
+            <p>о явке понятых на заседание с последующим бракосочетанием</p>
+            <button class="splash-btn" id="openInviteBtn">Открыть</button>
+        </div>
+    </section>
+    <section class="wedding-hero">
+        <div class="hero-content">
+            
+            <div class="header-text">
+                <h1>ПРОТОКОЛ</h1>
+                <h2>о незаконном завладеванием<br>сердца</h2>
+            </div>
+
+            <div class="text-content">
+                <div class="authorized-person">
+                    <p>Я, уполномоченное<br>лицо, гражданин</p>
+                </div>
+
+                <!-- Блок с именем жениха и фото 2.png -->
+                <div class="name-block name-block-groom">
+                    <div class="grid-column">
+                        
+                        <!-- 1. Фамилия -->
+                        <div class="grid-cell-wrapper">
+                            <img src="3.webp" alt="клетка" class="grid-bg-image">
+                            <div class="grid-text-content">
+                                <span class="handwritten-name">Павлов</span>
+                                <span class="label">фамилия</span>
+                            </div>
+                        </div>
+
+                        <!-- 2. Имя -->
+                        <div class="grid-cell-wrapper">
+                            <img src="3.webp" alt="клетка" class="grid-bg-image">
+                            <div class="grid-text-content">
+                                <span class="handwritten-name">Даниил</span>
+                                <span class="label label-name">имя</span>
+                            </div>
+                        </div>
+
+                        <!-- 3. Отчество -->
+                        <div class="grid-cell-wrapper">
+                            <img src="3.webp" alt="клетка" class="grid-bg-image">
+                            <div class="grid-text-content">
+                                <span class="handwritten-name">Дмитриевич</span>
+                                <span class="label">отчество</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <img src="22.png" alt="Фото жениха" class="polaroid-photo photo-groom">
+                </div>
+
+                <div class="action-text">
+                    <p>Действуя на основании личных<br>
+                    намерений, устойчивых чувств<br>
+                    и окончательного решения о создании<br>
+                    семьи, произвел задержание<br>
+                    гражданки:</p>
+                </div>
+
+                <!-- Блок с именем невесты и фото 1.png -->
+                <div class="name-block name-block-bride">
+                    <div class="grid-column">
+                        
+                        <!-- 1. Фамилия -->
+                        <div class="grid-cell-wrapper">
+                            <img src="3.webp" alt="клетка" class="grid-bg-image">
+                            <div class="grid-text-content">
+                                <span class="handwritten-name">Бондаренко</span>
+                                <span class="label">фамилия</span>
+                            </div>
+                        </div>
+
+                        <!-- 2. Имя -->
+                        <div class="grid-cell-wrapper">
+                            <img src="3.webp" alt="клетка" class="grid-bg-image">
+                            <div class="grid-text-content">
+                                <span class="handwritten-name">Юлия</span>
+                                <span class="label label-name">имя</span>
+                            </div>
+                        </div>
+
+                        <!-- 3. Отчество -->
+                        <div class="grid-cell-wrapper">
+                            <img src="3.webp" alt="клетка" class="grid-bg-image">
+                            <div class="grid-text-content">
+                                <span class="handwritten-name">Павловна</span>
+                                <span class="label">отчество</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <img src="11.png" alt="Фото невесты" class="polaroid-photo photo-bride">
+                </div>
+
+                <div class="footer-text">
+                    <p>Действуя по предварительному<br>
+                    взаимному согласию, вступили<br>
+                    в сговор с целью создания семьи,<br>
+                    совместного ведения хозяйства<br>
+                    и пожизненного союза.</p>
+                </div>
+
+                                <div class="verdict-section">
+                    
+                    <div class="circumstances-text">
+                        <p>В ходе проверки выявлены следующие<br>обстоятельства:</p>
+                    </div>
+
+                    <ol class="circumstances-list">
+                        <li>незаконное завладение сердцем;</li>
+                        <li>систематическое присутствие<br>в мыслях;</li>
+                        <li>планирование совместного<br>будущего;</li>
+                        <li>намерение обменяться кольцами;</li>
+                        <li>отсутствие сопротивления<br>задержанию.</li>
+                    </ol>
+
+                    <div class="order-title">
+                        <p>ПОСТАНОВЛЕНО</p>
+                    </div>
+
+                    <div class="order-text">
+                    <p>Назначить процедуру официального<br>
+                    бракосочетания на «<span class="handwritten-date">12 сентября 2026</span>» г.</p>
+                    </div>
+
+                    <!-- Картинка наручников -->
+                    <!-- Специальная обертка, чтобы фото плавно выезжало -->
+                    <div class="handcuffs-stage">
+                        <div class="handcuffs-wrapper">
+                            <img src="4.webp" alt="Наручники" id="moving-handcuffs" class="handcuffs-img">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+                            <!-- ========== СЕКЦИЯ 2: МЕСТО ПРОВЕДЕНИЯ ========== -->
+                <div class="location-section">
+                    
+                    <div class="location-header">
+                        <p>I. МЕСТО ПРОВЕДЕНИЯ<br>ПРОЦЕССУАЛЬНЫХ ДЕЙСТВИЙ</p>
+                    </div>
+
+                    <div class="location-subtitle">
+                        <p>Место официального<br>подтверждения задержания: </p>
+                    </div>
+
+                    <!-- Название зала с двумя линиями -->
+                    <div class="location-name-wrapper">
+                        <span class="handwritten-location">ЗАГС</span>
+                    <div class="location-subtitle">
+                        <p>г. Каменск-Шахтинский пр-кт Карла Маркса д. 62</p>
+                    </div>
+                        
+
+                        <!-- <span class="handwritten-location">«Белый»</span> -->
+                    </div>
+
+                    <!-- Фото локации -->
+                    <div class="location-photo-wrapper">
+                        <img src="loc2.png" alt="Банкетный зал Демий" class="location-photo">
+                    </div>
+
+                    <br> <br>
+
+                    <div class="location-subtitle">
+                        <p>Место торжественного<br>празднования задержания: Ресторан</p>
+                    </div>
+
+                    <!-- Название зала с двумя линиями -->
+                    <div class="location-name-wrapper">
+                        <!-- <span class="handwritten-location">Ресторан</span>
+                       <br> -->
+                        <span class="handwritten-location">ДИЛИЖАН</span>
+                        <div class="location-subtitle">
+                            <p>г. Каменск-Шахтинский М-4 Дон 928 км (купол) </p>
+                        </div>
+                    </div>
+
+                    <!-- Фото локации -->
+                    <div class="location-photo-wrapper">
+                        <img src="loc.png" alt="Банкетный зал Демий" class="location-photo">
+                    </div>
+
+
+                    
+
+                </div>
+
+
+
+                                <!-- ========== СЕКЦИЯ 3: ПРОГРАММА ========== -->
+                <div class="program-section">
+                    
+                    <div class="program-header">
+                        <p>II. ПРОГРАММА<br>ПРОЦЕССУАЛЬНЫХ ДЕЙСТВИЙ</p>
+                    </div>
+
+                    <!-- Список мероприятий -->
+                    <div class="schedule-list">
+                        <div class="schedule-item">
+                            <span class="schedule-time">12:45</span>
+                            <span class="schedule-desc">Официальное подтверждение<br>задержания и обмен<br>вещественными<br>доказательствами – кольца,<br>2шт. (ЗАГС). Прибытие по желанию.</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="schedule-time">15:30</span>
+                            <span class="schedule-desc">Сбор понятых, фуршет. <br>Прибытие обязательно.</span>
+                        </div>
+                        
+                        <div class="schedule-item">
+                            <span class="schedule-time">16:30</span>
+                            <span class="schedule-desc">Выездная процедура подтверждение<br>задержания.<br>(Выездная церемония)</span>
+                        </div>
+                        
+                        <!-- <div class="schedule-item">
+                            <span class="schedule-time">17:00</span>
+                            <span class="schedule-desc">Банкет в честь успешного<br>завершения операции, далее –<br>свободные маневры до полной<br>капитуляции усталости.</span>
+                        </div> -->
+                    </div>
+
+                    <!-- Фото пакета с кольцами (с выездом справа) -->
+                    <div class="handcuffs-stage"> <!-- Используем те же классы, что и для наручников -->
+                        <div class="handcuffs-wrapper">
+                            <img src="6.webp" alt="Вещественные доказательства" id="moving-handcuffs" class="handcuffs-img rings-img">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- ========== СЕКЦИЯ 4: ДРЕСС-КОД ========== -->
+                <!-- ========== СЕКЦИЯ 4: ДРЕСС-КОД ========== -->
+                <div class="dresscode-section">
+                    
+                    <div class="dresscode-header">
+                        <p>III. ФОРМА ОДЕЖДЫ<br>ДЛЯ ПОНЯТЫХ (ДРЕСС-КОД)</p>
+                    </div>
+
+                    <div class="dresscode-desc">
+                        <p>В целях соблюдения праздничной<br>
+                        дисциплины предписывается: стиль<br>
+                        классический, цветовая директива<br>
+                        от бежевых до шоколадных<br>
+                        оттенков.</p>
+                    </div>
+
+                    <!-- НОВАЯ ОБЕРТКА ТОЛЬКО ДЛЯ ПАЛИТРЫ -->
+                    <div class="palette-stage">
+                        <div class="palette-wrapper" id="palette-wrapper">
+                            <div class="color-palette">
+                                <div class="color-box color-1"></div>
+                                <div class="color-box color-2"></div>
+                                <div class="color-box color-3"></div>
+                                <div class="color-box color-4"></div>
+                                <div class="color-box color-5"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                                <!-- ========== СЕКЦИЯ 5: ПЕРЕДАЧА ДОКАЗАТЕЛЬСТВ ========== -->
+                <div class="evidence-section">
+                    
+                    <div class="evidence-header">
+                        <p>IV. ПОРЯДОК ПЕРЕДАЧИ<br>МАТЕРИАЛЬНЫХ<br>ДОКАЗАТЕЛЬСТВ</p>
+                    </div>
+
+                    <div class="evidence-desc">
+                        <p>Передача цветочной продукции<br>
+                        не требуется. Жизненный цикл<br>
+                        букетов ограничен, логистические<br>
+                        издержки не оправданы.<br>
+                        Взамен этого рекомендуется иметь<br>
+                         при себе бутылочку вашего любимого<br>
+                        напитка.</p>
+                    </div>
+
+                    <!-- Блок с двумя руками -->
+                    <div class="hands-container">
+                        
+                        <!-- Левая рука (выезжает слева) -->
+                        <div class="palette-stage hand-left-stage">
+                            <div class="palette-wrapper hand-left-wrapper" id="hand-left-wrapper">
+                                <img src="123.png" alt="Левая рука" class="hand-img hand-left-img">
+                            </div>
+                        </div>
+
+                        <!-- Правая рука и конверт (выезжает справа) -->
+                        <div class="handcuffs-stage hand-right-stage">
+                            <div class="handcuffs-wrapper hand-right-wrapper" id="hand-right-wrapper">
+                                <img src="124.png" alt="Правая рука и конверт" class="hand-img hand-right-img">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Текст под картинкой -->
+                    <!-- <div class="evidence-footer">
+                        <p>Средства будут<br>
+                        направлены на развитие<br>
+                        совместной стратегии<br>
+                        и укрепление<br>
+                        материально-технической<br>
+                        базы семьи.</p> <br>
+                        
+                        <p>Передача цветочной продукции<br>
+                        не требуется. Жизненный цикл<br>
+                        букетов ограничен, логистические<br>
+                        издержки не оправданы.<br>
+                        Рекомендуется иметь при себе<br>
+                        денежные средства для участия<br>
+                        в развлекательных мероприятиях,<br>
+                        предусмотренных программой.</p>
+                    </div> -->
+
+                </div>
+
+                <!-- ========== СЕКЦИЯ 6: ДОПОЛНИТЕЛЬНЫЕ РАСПОРЯЖЕНИЯ ========== -->
+                <div class="extra-section" id="extra-section">
+                    
+                    <div class="extra-header">
+                        <p>V. ДОПОЛНИТЕЛЬНЫЕ<br>РАСПОРЯЖЕНИЯ</p>
+                    </div>
+
+                    <div class="extra-list">
+                        <div class="extra-item">
+                            <span class="extra-number">1.</span>
+                            <div class="extra-text">
+                                В целях соблюдения регламента<br>
+                                мероприятия и обеспечения<br>
+                                контролируемой праздничной<br>
+                                обстановки постановлено:<br>
+                                лица, не достигшие<br>
+                                совершеннолетия, к участию<br>
+                                в мероприятии<br>
+                                не привлекаются. Присутствие<br>
+                                детей не предусмотрено<br>
+                                форматом операции.
+                            </div>
+                        </div>
+                        
+                        <div class="extra-item">
+                            <span class="extra-number">2.</span>
+                            <div class="extra-text">
+                                Понятым рекомендуется прибыть<br>
+                                вовремя, в установленном<br>
+                                дресс-кодом виде и в полной<br>
+                                готовности к активному<br>
+                                участию в праздничных<br>
+                                процессуальных действиях.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Фото с ребенком. Зачеркивание будет поверх него -->
+                    <div class="child-image-wrapper">
+                        <img src="child.png" alt="Нет детей" class="child-img">
+                    </div>
+
+                </div>
+
+
+
+                                <!-- ========== СЕКЦИЯ 7: ЯВКА ПОНЯТОГО ========== -->
+                <div class="attend-section" id="attend-section">
+                    
+                    <div class="attend-header">
+                        <p>VI. ЯВКА ПОНЯТОГО</p>
+                    </div>
+
+                    <div class="attend-intro">
+                        <p>Для участия в процессуальных<br>
+                        действиях просим подтвердить<br>
+                        личное присутствие<br>
+                        до «<span class="attend-date">25</span>» <span class="attend-date">августа</span> 2026 г.<br>
+                        и внести данные:</p>
+                    </div>
+
+                    <div class="attend-question">
+                        <p><strong>Придете на нашу свадьбу?</strong></p>
+                    </div>
+
+                    <!-- Радиокнопки -->
+                    <div class="attend-options">
+                        <label class="attend-radio">
+                            <input type="radio" name="attendance" value="yes" checked>
+                            <span class="radio-custom"></span>
+                            Да, с радостью
+                        </label>
+                        <label class="attend-radio">
+                            <input type="radio" name="attendance" value="no">
+                            <span class="radio-custom"></span>
+                            К сожалению, не смогу
+                        </label>
+                    </div>
+
+                    <!-- Поле ввода ФИО -->
+                    <div class="attend-input-wrapper">
+                        <input type="text" class="attend-input" placeholder="Введите ваше ФИО">
+                    </div>
+
+
+                    <!-- ===== НОВЫЙ БЛОК: ПРЕДПОЧТЕНИЯ ПО АЛКОГОЛЮ ===== -->
+                    <div class="alcohol-section">
+                        <p class="alcohol-title"><strong>Ваши предпочтения по алкоголю:</strong></p>
+                        <div class="alcohol-options">
+                            <label class="alcohol-checkbox">
+                                <input type="checkbox" name="alcohol" value="white-wine">
+                                <span class="checkbox-custom-alcohol"></span>
+                                Белое вино
+                            </label>
+                            <label class="alcohol-checkbox">
+                                <input type="checkbox" name="alcohol" value="red-wine">
+                                <span class="checkbox-custom-alcohol"></span>
+                                Красное вино
+                            </label>
+                            <label class="alcohol-checkbox">
+                                <input type="checkbox" name="alcohol" value="vodka">
+                                <span class="checkbox-custom-alcohol"></span>
+                                Водка
+                            </label>
+                            <label class="alcohol-checkbox">
+                                <input type="checkbox" name="alcohol" value="cognac">
+                                <span class="checkbox-custom-alcohol"></span>
+                                Коньяк
+                            </label>
+                        </div>
+                        <p class="alcohol-note">(можно выбрать несколько вариантов)</p>
+                    </div>
+
+                    <!-- Текст-согласие -->
+                    <div class="attend-agreement">
+                        <div class="agreement-row">
+                            <div class="checkbox-wrapper">
+                                <input type="checkbox" id="agree-check">
+                                <label for="agree-check" class="checkbox-custom"></label>
+                            </div>
+                            <p>Настоящим подтверждается<br>
+                            готовность лично присутствовать<br>
+                            при приведении приговора в<br>
+                            исполнение и разделить один из<br>
+                            важнейших моментов в жизни сторон.<br>
+                            Стороны дела будут искренне рады<br>
+                            видеть указанного понятого в числе<br>
+                            свидетелей создания новой семьи и<br>
+                            рассчитывают на активное участие в<br>
+                            праздничных действиях и веселье<br>
+                            без ограничений. Неявка<br>
+                            рассматривается как уклонение от<br>
+                            участия в историческом событии.</p>
+                        </div>
+                    </div>
+
+                    <!-- Кнопка отправки -->
+                    <div class="attend-submit-wrapper">
+                        <button type="button" class="attend-submit">Отправить</button>
+                    </div>
+
+                </div>
+                
+
+
+
+                                <!-- ========== СЕКЦИЯ 8: ЗАКЛЮЧЕНИЕ ========== -->
+                <div class="final-section">
+                    
+                    <div class="final-header">
+                        <p>VII. ЗАКЛЮЧЕНИЕ</p>
+                    </div>
+
+                    <div class="final-desc">
+                        <p>Настоящий протокол вступает<br>
+                        в силу с момента официального<br>
+                        объявления граждан мужем<br>
+                        и женой.</p>
+                    </div>
+
+                    <!-- Блок с молотком и печатью -->
+                    <div class="final-visuals">
+                        
+                        <!-- Молоток (выезжает справа с задержкой) -->
+                        <div class="handcuffs-stage final-gavel-stage">
+                            <div class="handcuffs-wrapper final-gavel-wrapper" id="final-gavel-wrapper">
+                                <img src="molot.png" alt="Молоток" class="final-gavel-img">
+                            </div>
+                        </div>
+
+                        <!-- Печать (появляется после молотка) -->
+                <div class="final-stamp-wrapper" id="final-stamp-wrapper">
+                    <!-- Используем ТВОЮ картинку stamp.png -->
+                    <img src="stamp.png" alt="Печать" class="final-stamp-img">
+                </div>
+
+                    </div>
+                </div>
+
+                    <!-- ========== ФУТЕР ========== -->
+    <footer class="wedding-footer" id="footer-section">
+        <div class="footer-stage" id="footer-stage">
+            <div class="footer-wrapper" id="footer-wrapper">
+                <img src="footer2.png" alt="Футер" class="footer-img">
+            </div>
+        </div>
+    </footer>
+
+        </div>
+
+
+
+        
+
+
+        
+    </section>
+
+
+
+    
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
