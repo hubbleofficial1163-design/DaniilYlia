@@ -80,6 +80,11 @@ body {
 .action-text { margin-top: 20px; }
 .footer-text { margin-top: 20px; margin-bottom: 40px; }
 
+/* Блок с фото невесты - увеличиваем нижний отступ */
+.name-block-bride {
+    margin-bottom: 80px !important;   /* было 55px, увеличили */
+}
+
 /* --- Блоки с именами --- */
 .name-block {
     position: relative;
@@ -170,7 +175,7 @@ body {
 /* Фото 1.png (Невеста) */
 .photo-bride {
     right: -20px !important;
-    top: -55px !important;
+    top: -45px !important;
     transform: rotate(7deg);
 }
 
@@ -229,8 +234,8 @@ body {
 
 .order-text {
     font-size: 13px;
-    line-height: 0.7;
-    margin-bottom: -10px;
+    line-height: 1;
+    margin-bottom: -15px;
 }
 
 /* Рукописная дата (29, августа, 2026) */
